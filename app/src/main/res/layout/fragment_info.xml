@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorStandard"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/fill_in_the_information_below"
+        android:textColor="@color/colorDark"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/fragment_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="4dp"
+        android:background="@color/colorBackground"
+        android:hint="@string/first_and_last_name"
+        android:padding="6dp" />
+
+    <EditText
+        android:id="@+id/fragment_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        android:hint="@string/email_info"
+        android:padding="6dp" />
+
+    <EditText
+        android:id="@+id/fragment_birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="4dp"
+        android:background="@color/colorBackground"
+        android:hint="@string/dob_info"
+        android:inputType="date"
+        android:padding="6dp" />
+
+    <EditText
+        android:id="@+id/fragment_work"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        android:hint="@string/work_info"
+        android:padding="6dp" />
+
+    <Button
+        android:id="@+id/fragment_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_fragment"
+        android:text="@string/submit_info"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Login Design</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dob">DOB:</string>
+    <string name="work">Work:</string>
+    <string name="email">Email:</string>
+    <string name="name">Name:</string>
+    <string name="profile_information">Profile Information:</string>
+    <string name="fill_in_the_information_below">Fill in the information below:</string>
+    <string name="first_and_last_name">First and Last Name</string>
+    <string name="email_info">Email</string>
+    <string name="dob_info">Date of Birth (mm/dd/yyyy)</string>
+    <string name="work_info">Employment Status</string>
+    <string name="submit_info">Submit</string>
+    <string name="home_screen">Home Screen</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="register_new_account">Register New Account</string>
+</resources>
